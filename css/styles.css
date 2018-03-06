@@ -1,0 +1,37 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  outline: 0;
+}
+
+  input{
+    padding: 15px 25px;
+  }
+
+.contenedorCalculadora{
+    width: 20%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 50px;
+}
+ .cajadetexto{
+      width: 95%;
+      padding: 6px;
+      font-size: 1em;
+      margin-bottom: 10px;
+}
+.borrar{
+  padding: 15px 17px;
+}
+.menos{
+  padding: 15px 21px;
+
+}
+.igual{
+    padding: 15px 53px;
+}
+.mas{
+  padding: 43px 20px;
+
+}

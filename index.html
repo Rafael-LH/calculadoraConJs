@@ -3,8 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="css/styles.min.css">
   </head>
   <body>
-          
+
+
+        <table class="contenedorCalculadora">
+              <tr>
+                <td colspan="10"><input id="cajadetexto" class='cajadetexto' type="text" name=""></td>
+              </tr>
+              <tr>
+                <td><input id="borrarTodo" type="button" value="C"></td>
+                <td><input type="button" value="/"></td>
+                <td><input type="button" value="X"></td>
+                <td><input class="borrar" type="button" value="<-"></td>
+              </tr>
+              <tr>
+                  <td><input onClick="operacion(7)" type="button" value="7"></td>
+                  <td><input onclick="operacion(8)" type="button" value="8"></td>
+                  <td><input onclick="operacion(9)" type="button" value="9"></td>
+                  <td><input class="menos" type="button" value="-"></td>
+              </tr>
+              <tr>
+                  <td><input onclick="operacion(4)" type="button" value="4"></td>
+                  <td><input onclick="operacion(5)" type="button" value="5"></td>
+                  <td><input onclick="operacion(6)" type="button" value="6"></td>
+                  <td rowspan="2"><input class="mas" type="button" value="+"></td>
+              </tr>
+              <tr>
+                <td><input onclick="operacion(1)" type="button" value="1"></td>
+                <td><input onclick="operacion(2)" type="button" value="2"></td>
+                <td><input onclick="operacion(3)" type="button" value="3"></td>
+              </tr>
+              <tr>
+                <td><input onclick="operacion(0)" type="button" value="0"></td>
+                <td><input type="button" value="."></td>
+                <td colspan="2"><input class="igual" type="button" value="="></td>
+              </tr>
+        </table>
+
+        <script  type="text/javascript" src='js/javascript.js'></script>
   </body>
 </html>
